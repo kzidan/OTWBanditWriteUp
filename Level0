@@ -7,6 +7,7 @@ Description: Level 0 aims to teach beginners how to use SSH in order to be able 
 *Content*
 In order to connect through SSH(Secure Shell Protocol), you must open your terminal and use the command ssh bandit0@bandit.labs.overthewire.org -p 2220
                                                                                                          ^      ^               ^                ^   ^
-                                                                                                      command   |              host      flag to specify port
-                                                                                                             username           
+                                                                                                      command   |              host              |  port#
+                                                                                                             username                            |
+                                                                                                                                      flag to specify port
 SSH is used to provide a secure encrypted connection between computers
