@@ -1,0 +1,18 @@
+*Information*
+CTF Name: Bandit Level 2 -> Level 3
+Profile: OverTheWire
+Difficulty: Easy
+Description: The purpose of this level is to teach users how to open files with spaces in their name
+
+*Content*
+1) Connected to new level through using the username bandit3, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used 'ls' command to find file
+3) Used command 'cat "spaces in this filename"'
+                  ^               ^
+               command            |
+                                  |
+                  file name with quotation marks around it
+
+to make sure that the system understands that you are reffering to the file name when it includes spaces use quotation marks around it, otherwise the 
+system will treat all the words as seperate commands/options
