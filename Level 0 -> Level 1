@@ -1,0 +1,16 @@
+*Information*
+CTF Name: Bandit Level 0 -> Level 1
+Profile: OverTheWire
+Difficulty: Easy
+Description: The purpose of this level is to educate users on how to find and read files
+
+*Content*
+1) Connected to new level through using the username bandit1, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used command 'ls' to list all files in the current directory
+3) Used command 'cat readme' to read the file
+                  ^     ^
+              command   |
+                     file name
+The ls command is used to list files in a directory. It can be combined with other flags such as -a which will make sure files starting with . will not be
+ignored, or -l which will use long listing format.
