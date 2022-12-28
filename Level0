@@ -9,3 +9,4 @@ In order to connect through SSH(Secure Shell Protocol), you must open your termi
                                                                                                          ^      ^               ^                ^   ^
                                                                                                       command   |              host      flag to specify port
                                                                                                              username           
+SSH is used to provide a secure encrypted connection between computers
