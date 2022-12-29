@@ -1,0 +1,19 @@
+*Information*
+CTF Name: Bandit Level 4 -> Level 5
+Profile: OverTheWire
+Difficulty: Easy
+Description: The purpose of this challenge is to teach users how to find additional information about files, including the type of data stored in them
+
+*Content*
+1) Connected to new level through using the username bandit4, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used 'cd inhere' command to switch directories
+3) Used 'ls' command to view files in directory, got the results '-file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09'
+4) Used 'file ./-file*' command to view data
+          ^       ^
+       command    |
+adds  a '*' to the end of the beginning of the file name so that it iterates through all the files starting with '-file'
+5) Used 'cat ./-file07' command to read the file after seeing that it is in ASCII whereas the other files are listed as data
+
+The type of data in a file can be seen through the use of the file command. ASCII is a human readable datatype so we can assume that it countains the 
+password, as the challenge specified that it would.
