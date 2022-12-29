@@ -5,7 +5,7 @@ Difficulty: Easy
 Description: The purpose of this level is to teach users how to open files with spaces in their name
 
 *Content*
-1) Connected to new level through using the username bandit3, with the password as the flag from the previous level. (A breakdown of the ssh 
+1) Connected to new level through using the username bandit2, with the password as the flag from the previous level. (A breakdown of the ssh 
 command can be found in level0)
 2) Used 'ls' command to find file
 3) Used command 'cat "spaces in this filename"'
