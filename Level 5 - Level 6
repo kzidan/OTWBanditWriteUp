@@ -1,0 +1,23 @@
+*Information*
+CTF Name: Bandit Level 5 - Level 6
+Profile: OverTheWire
+Difficulty: Easy
+Description
+
+*Content*
+1) Connected to new level through using the username bandit4, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used 'cd inhere' command to switch directories
+3) Used 'ls' command to view files in directory, got results 
+maybehere00  maybehere04  maybehere08  maybehere12  maybehere16
+maybehere01  maybehere05  maybehere09  maybehere13  maybehere17
+maybehere02  maybehere06  maybehere10  maybehere14  maybehere18
+maybehere03  maybehere07  maybehere11  maybehere15  maybehere19
+4) Used command 'find ./maybehere* -type f -size 1033c ! -executable'
+                  ^         ^         ^  ^    ^     ^           ^
+               command      |         | type  | desired flag    |
+                            |   type option   |    ! specifies that its not executable
+                      files to be searched    |
+                                          size flag
+5) Used 'cd maybehere07', after finding out through the previous command that the flag is located in '.file2' inside the 'maybehere07' 
+6) Used command 'cat .file2' 
