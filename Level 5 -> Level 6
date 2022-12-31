@@ -2,7 +2,7 @@
 CTF Name: Bandit Level 5 - Level 6
 Profile: OverTheWire
 Difficulty: Easy
-Description: This level tests the users ability to use the find commanand
+Description: This level tests the users ability to use the find command
 
 *Content*
 1) Connected to new level through using the username bandit5, with the password as the flag from the previous level. (A breakdown of the ssh 
