@@ -1,0 +1,17 @@
+*Information*
+CTF Name: Bandit Level 6 -> Level 7
+Profile: OverTheWire
+Difficulty: Easy
+Description: The purpose of this level is to further the users understanding of the find command, as well as the options it comes with. Specifically,
+the -user and -group options will be used which have not been used in previous levels.
+
+*Content*
+1) Connected to new level through using the username bandit6, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used command find / -group bandit6 -user bandit7 -size 33c -type f 2>/dev/null
+                 ^   ^    ^       ^     ^       ^      ^   ^    ^   ^       ^
+             command |    |     group   |      user    |  size  |   |       |
+                   root   |         user option   size option   |  type     |
+                      group option                          type option     |
+                                                    used to remove all results that require permissions
+3) Used command 'cat /var/lib/dpkg/info/bandit7.password', to get the password after the command yielded this location
