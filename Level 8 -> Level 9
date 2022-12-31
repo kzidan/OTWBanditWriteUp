@@ -1,0 +1,11 @@
+*Information*
+CTF Name: Bandit Level
+Profile: OverTheWire
+Difficulty: Easy
+Description: This 
+
+*Content*
+1) Connected to new level through using the username bandit8, with the password as the flag from the previous level. (A breakdown of the ssh 
+command can be found in level0)
+2) Used command 'sort data.txt | uniq -u'
+                  ^       ^    ^   ^   ^
