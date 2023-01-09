@@ -2,7 +2,8 @@
 CTF Name: Bandit Level
 Profile: OverTheWire
 Difficulty: Easy
-Description: This 
+Description: This level requires the usage of a pipeline, as well as the sort command in order to find the password. This is because the password for the
+next level is the only unique line in a file.
 
 *Content*
 1) Connected to new level through using the username bandit8, with the password as the flag from the previous level. (A breakdown of the ssh 
