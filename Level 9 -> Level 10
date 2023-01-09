@@ -1,0 +1,15 @@
+*Information*
+CTF Name: Bandit Level 9 -> Level 10
+Profile: OverTheWire
+Difficulty: Easy
+Description: 
+
+*Content*
+1) Connected to new level through using the username bandit9, with the password as the flag from the previous level.
+2) Used command 'strings data.txt | grep -E "=+"'
+                    ^         ^   ^   ^      ^
+                    |   file name |   |      |
+                    |        pipeline |   pattern
+                    |                 |
+                    |          finds pattern
+       pulls strings from binary file
