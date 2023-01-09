@@ -9,3 +9,6 @@ Description: This
 command can be found in level0)
 2) Used command 'sort data.txt | uniq -u'
                   ^       ^    ^   ^   ^
+               command    |    |   | unique
+                     file name | command
+                            pipeline
