@@ -2,7 +2,8 @@
 CTF Name: Bandit Level 9 -> Level 10
 Profile: OverTheWire
 Difficulty: Easy
-Description: 
+Description: This level requires the user to pull text from a binary file, and then use the grep command to find the multiple equals signs before the 
+password
 
 *Content*
 1) Connected to new level through using the username bandit9, with the password as the flag from the previous level.
