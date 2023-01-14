@@ -1,0 +1,14 @@
+*Information*
+CTF Name: Bandit Level 10 -> Level 11
+Profile: OverTheWire
+Difficulty: Easy
+Description: This level informs us that the password is located in a file named 'data.txt' which is base64 encoded. To solve this we need to use the base64
+command to decode it.
+
+*Content*
+1) Connected to new level through using the username bandit10, with the password as the flag from the previous level.
+2) Used 'ls' command to verify the files location
+3) Used command 'base64 --decode data.txt'
+                    ^       ^       ^
+               command  decode flag |
+                            file to be decoded
