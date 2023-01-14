@@ -1,1 +1,18 @@
+*Information*
+CTF Name: Bandit Level 11 -> Level 12
+Profile: OverTheWire
+Difficulty: Easy
+Description: This level informs us that the password has been encrypted using a caesar cipher with each letter being shifted by 13. This cipher text is 
+located in a file named data.txt. We will be using the tr command in order to subsitute the letters with a different set, this will allow us to decrypt
+the message
 
+*Content*
+1) Connected to new level through using the username bandit11, with the password as the flag from the previous level.
+2) Used command 'cat data.txt' to read the ciphertext contained in the file
+                  ^      ^
+              command file name
+3) Copy cipher text
+4) Used command 'echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr '[A-Za-z]' '[M-ZA-Lm-za-l]''
+                  ^                           ^                            ^       ^            ^
+          command to display text   cipher text from step 2      translate command |           set 2
+                                                                                  set 1
