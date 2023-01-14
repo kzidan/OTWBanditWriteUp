@@ -12,7 +12,7 @@ the message
                   ^      ^
               command file name
 3) Copy cipher text
-4) Used command 'echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr '[A-Za-z]' '[M-ZA-Lm-za-l]''
+4) Used command 'echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]''
                   ^                           ^                            ^       ^            ^
           command to display text   cipher text from step 2      translate command |           set 2
                                                                                   set 1
